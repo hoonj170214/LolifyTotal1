@@ -1,0 +1,53 @@
+{
+  "name": "opgg",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^5.6.4",
+    "@reduxjs/toolkit": "^2.0.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "chart.js": "^2.9.3",
+    "dotenv": "^16.3.1",
+    "intersection-observer": "^0.11.0",
+    "moment": "^2.27.0",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-intersection-observer": "^8.26.2",
+    "react-redux": "^7.2.9",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.1",
+    "styled-reset": "^4.2.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "craco-alias": "^2.1.1"
+  }
+}

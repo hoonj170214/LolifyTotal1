@@ -1,9 +1,9 @@
-const baseURL = "https://kr.api.riotgames.com";
+const baseURL = "https://kr.api.riotgames.com/";
 
 export const API = {
   // GET_SUMMONER : return puuid
-  GET_SUMMONER: (summonerName) => `${baseURL}/lol/summoner/v4/summoners/by-name/${summonerName}`,
-  GET_MATCH_ID: (puuid) => `${baseURL}/lol/match/v5/matches/by-puuid/${puuid}/matches`,
+  GET_SUMMONER: (summonerName) => `${baseURL}api/lol/summoner/v4/summoners/by-name/${summonerName}`,
+  GET_MATCH_ID: (puuid) => `${baseURL}api/lol/match/v5/matches/by-puuid/${puuid}/matches`,
   GET_MATCH_DETAIL: (matchId) => `https://asia.api.riotgames.com/lol/match/v5/matches/${matchId}`,
   //GET_MOST_INFO: (summonerName) => `${baseURL}/api/summoner/${summonerName}/mostInfo`,
 };

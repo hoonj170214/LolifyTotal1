@@ -19,7 +19,7 @@ const config = {
 // 마지막에 dialect는 어떤 종류의 데이터베이스 시스템을 사용하는지 적는거에요.
 // mysql 을 사용하니까 mysql 이라고 적어줬어요. mongodb 를 사용하면 mongodb라고 적어주면 돼요.
 // new Sequelize는 새로운 시퀄라이즈 인스턴스(객체)를 생성하는 코드에요.
-// 새로운 객체를 생성해서 상수 sequelize 에 할당해요.
+// 새로운 객체를 생성해서 상수 sequelize에 할당해요.
 const sequelize = new Sequelize(config.database, config.user, config.password, {
   host: config.host,
   dialect: 'mysql',

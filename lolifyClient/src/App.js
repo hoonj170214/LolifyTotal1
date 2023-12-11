@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import ChampionInfo from './components/ChampionInfo.js';
-import useHttp from './hooks/usehttp.js';
-import useFetchImg from './hooks/usefetchImg.js';
+import useHttp from './hooks/useHttp.js';
+import useFetchImg from './hooks/useFetchImg.js';
 
 // 메인 앱 컴포넌트 정의
 const App = () => {
@@ -67,7 +67,9 @@ const App = () => {
     };
 
     fetchData(
-      { url: 'http://localhost:4001/api/runesData/' },
+      {
+        url: 'http://ec2-43-201-114-167.ap-northeast-2.compute.amazonaws.com:4001/api/runesData/',
+      },
       transformRunesData
     );
 
